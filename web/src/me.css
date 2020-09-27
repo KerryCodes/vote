@@ -1,0 +1,30 @@
+#me-ul{
+  padding: 0;
+  margin: 0;
+}
+#me-ul li{
+  display: flex;
+  flex-direction: column;
+}
+#me-ul li .topic{
+  background-color: white;
+  padding: 10px;
+  margin: 0 0 2px 0;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.show{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin: 0 0 2px 0;
+  height: 50px;
+  line-height: 50px;
+  
+}
+.show span{
+  font-size: 18px;
+  color:rgb(43	113	239);
+}
